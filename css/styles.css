@@ -129,17 +129,16 @@ img {
   color: var(--white);
   cursor: pointer;
   min-width: 169px;
-  display: block;
   height: 56px;
   border: none;
   border-radius: 4px;
   padding: 16px 32px;
-  
 }
 
-.hero-actions{
+.hero-actions {
   display: flex;
   align-items: center;
+  display: block;
   margin: 48px auto;
 }
 .hero-button:hover,
