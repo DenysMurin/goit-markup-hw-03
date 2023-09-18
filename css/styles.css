@@ -32,7 +32,7 @@ a {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  display: flex;
+  /* display: flex; */
 }
 img {
   display: block;
@@ -118,6 +118,7 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   margin: 0 auto;
+  max-width: 496px;
 }
 .hero-button {
   background-color: var(--iris);
@@ -134,8 +135,11 @@ img {
   border-radius: 4px;
   
 }
+
 .hero-actions{
-  display: block;
+  display: flex;
+  align-items: center;
+  margin: 48px auto;
 }
 .hero-button:hover,
 .hero-button:focus {
