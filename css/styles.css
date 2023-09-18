@@ -28,10 +28,11 @@ a {
 }
 
 .container {
-  width: 1440px;
+  max-width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  display: flex;
 }
 img {
   display: block;
@@ -42,6 +43,7 @@ img {
 }
 .header-inner {
   display: flex;
+  align-items: center;
 }
 .header-nav {
   display: flex;
