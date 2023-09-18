@@ -96,15 +96,20 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.address-list{
+.address-list {
   display: flex;
   gap: 40px;
 }
 
 /* !MAIN */
 /* HERO */
-.hero-background {
+.hero-inner {
+  padding: 188px 0;
+}
+.hero-section {
   background-color: var(--navyblue);
+  max-height: 496px;
+  margin-bottom: 60px;
 }
 .title-one {
   color: var(--white);
@@ -112,6 +117,7 @@ img {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  margin: 0 auto;
 }
 .hero-button {
   background-color: var(--iris);
@@ -122,6 +128,14 @@ img {
   letter-spacing: 0.04em;
   color: var(--white);
   cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  
+}
+.hero-actions{
+  display: block;
 }
 .hero-button:hover,
 .hero-button:focus {
