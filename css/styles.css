@@ -53,7 +53,7 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 
 .full-logo {
@@ -85,6 +85,7 @@ img {
   letter-spacing: 0.02em;
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .address-list{
   display: flex;
