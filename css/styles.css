@@ -8,6 +8,7 @@ body {
 }
 ul {
   list-style-type: none;
+  padding: 0;
 }
 a {
   text-decoration: none;
@@ -175,7 +176,6 @@ img {
   margin: 0;
   display: flex;
   gap: 24px;
-  padding-left: 0;
 
 }
 .advantage-item {
