@@ -175,11 +175,11 @@ img {
   margin: 0;
   display: flex;
   gap: 24px;
-  flex-basis: calc((100% - 72px) / 4));
+  padding-left: 0;
 
 }
 .advantage-item {
-  
+  width: calc((100% - 72px) / 4));
 }
 .title-three {
   font-family: "Roboto", sans-serif;
