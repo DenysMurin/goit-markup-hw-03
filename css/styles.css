@@ -97,7 +97,7 @@ img {
 .header-text:focus {
   color: var(--ocean);
 }
-.navigation-item {
+.navigation-list {
   color: var(--navyblue);
   font-size: 16px;
   font-weight: 500;
@@ -105,6 +105,9 @@ img {
   letter-spacing: 0.02em;
   display: flex;
   gap: 40px;
+  
+}
+.navigation-item{
   padding: 24px 0;
 }
 
