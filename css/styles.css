@@ -175,7 +175,7 @@ img {
   margin: 0;
   display: flex;
   gap: 24px;
-  width: calc((100%-24px)/3);
+  width: calc((100%-72px)/4);
 }
 .title-three {
   font-family: "Roboto", sans-serif;
