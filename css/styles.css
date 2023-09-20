@@ -59,6 +59,9 @@ h6 {
 img {
   display: block;
 }
+.section {
+  padding: 120px 0 120px 0;
+}
 /* !HEADER */
 .header {
   border-bottom: 1px solid var(--cornflower);
@@ -105,9 +108,8 @@ img {
   letter-spacing: 0.02em;
   display: flex;
   gap: 40px;
-  
 }
-.navigation-item{
+.navigation-item {
   padding: 24px 0;
 }
 
@@ -177,7 +179,6 @@ img {
   margin: 0;
   display: flex;
   gap: 24px;
-
 }
 .advantage-item {
   width: calc((100% - 72px) / 4);
@@ -211,6 +212,19 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.card-list {
+  display: flex;
+  gap: 24px;
+}
+.card-item {
+  width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0 0 4px 4px;
+  /* box-shadow: 10px 10px 10px px rgba(0, 0, 0, 0.5) */
+}
+.name-item{
+  padding: 32px 0;
 }
 .card-background {
   background-color: var(--white);
