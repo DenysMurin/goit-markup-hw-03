@@ -253,6 +253,9 @@ img {
 /* !FOOTER */
 .footer {
   background-color: var(--navyblue);
+  
+}
+.footer-container{
   padding-top: 100px ;
   padding-bottom: 100px;
   padding-left: 156px;
