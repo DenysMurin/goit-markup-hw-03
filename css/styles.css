@@ -251,10 +251,17 @@ img {
   border-top:none;
 }
 /* !FOOTER */
-.footer-background {
+.footer {
   background-color: var(--navyblue);
+  padding-top: 100px ;
+  padding-bottom: 100px;
+  padding-left: 156px;
 }
-
+.layot{
+  display: inline-block;
+  margin-bottom: 16px;
+  
+}
 .white-logo {
   color: var(--cloud);
 }
@@ -263,4 +270,5 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
