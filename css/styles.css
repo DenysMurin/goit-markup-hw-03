@@ -253,12 +253,12 @@ img {
 /* !FOOTER */
 .footer {
   background-color: var(--navyblue);
-  
+ 
 }
-.footer-container{
+.footer-section{
   padding-top: 100px ;
   padding-bottom: 100px;
-  padding-left: 156px;
+  /* padding-left: 156px; */
 }
 .layot{
   display: inline-block;
